@@ -1,0 +1,4 @@
+OrderNumber::CustomerName::State::TaxRate::ProductType::Area::CostPerSquareFoot::LaborCostPerSquareFoot::MaterialCost::LaborCost::Tax::Total::Date
+6::John Doe::KY::6.000::Carpet::545.50::2.250::2.100::1227.38::1145.55::142.38::2515.30::08-15-2021
+9::Sridevi Suresh::WA::9.250::Carpet::2000.00::2.250::2.100::4500.00::4200.00::804.75::9504.75::09-20-2022
+10::Harry Glenn::TX::4.450::Wood::285.00::5.150::4.750::1467.75::1353.75::125.56::2947.06::09-21-2022

@@ -1,0 +1,2 @@
+OrderNumber::CustomerName::State::TaxRate::ProductType::Area::CostPerSquareFoot::LaborCostPerSquareFoot::MaterialCost::LaborCost::Tax::Total
+9::Sridevi Suresh::WA::9.250::Carpet::2000.00::2.250::2.100::4500.00::4200.00::804.75::9504.75

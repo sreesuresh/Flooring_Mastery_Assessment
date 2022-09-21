@@ -1,0 +1,4 @@
+OrderNumber::CustomerName::State::TaxRate::ProductType::Area::CostPerSquareFoot::LaborCostPerSquareFoot::MaterialCost::LaborCost::Tax::Total
+10::Harry Glenn::TX::4.450::Wood::285.00::5.150::4.750::1467.75::1353.75::125.56::2947.06
+11::Mina Jack::WA::9.250::Tile::356.00::3.500::4.150::1246.00::1477.40::251.91::2975.31
+12::Ada Lovelace::CA::25.000::Tile::249.00::3.500::4.150::871.50::1033.35::476.21::2381.06

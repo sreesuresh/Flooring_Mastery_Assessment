@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+          http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- Bean definitions go here -->
+    <bean id="userIO" class="org.example.view.UserIOConsoleImpl"/>
+
+    <bean id="view" class="org.example.view.FlooringView">
+        <constructor-arg ref="userIO"/>
+    </bean>
+
+    <bean id="dao" class="org.example.dao.FlooringDaoFileImpl">
+        <constructor-arg value="Orders"/>
+        <constructor-arg value="Orders_"/>
+        <constructor-arg value="DataExport.txt"/>
+        <constructor-arg value="Products.txt"/>
+        <constructor-arg value="Taxes.txt"/>
+    </bean>
+
+    <bean id="auditDao" class="org.example.dao.FlooringAuditDaoFileImpl"></bean>
+
+    <bean id="service" class="org.example.service.FlooringServiceLayerImpl">
+        <constructor-arg ref="dao"/>
+        <constructor-arg ref="auditDao"/>
+    </bean>
+
+    <bean id="controller" class="org.example.controller.FlooringController">
+        <constructor-arg ref="service"/>
+        <constructor-arg ref="view"/>
+    </bean>
+
+
+</beans>
